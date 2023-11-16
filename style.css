@@ -1,0 +1,89 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     width: 100%;
+     height: auto;
+
+     display: flex;
+     justify-content: center;
+
+     background-color: #010101;
+     font-family: "Monument Extended";
+     text-transform: uppercase;
+     color: #E9E9E9;
+}
+
+.container{
+     width: 80%;
+     height: 100vh;
+}
+
+.navigation{
+     width: 100%;
+     height: 15vh;
+}
+.navigation__list{
+     width: 100%;
+     height: 100%;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     list-style: none;
+}
+.navigation__list-items{
+     font-size: 3vw;
+}
+
+
+
+#dateContainer{
+     align-self: center;
+
+     font-size: 15vw;
+     text-align: center;
+     white-space: nowrap;
+}
+.day{
+     color: #eb6a2c;
+}
+
+
+
+.hero__container{
+     margin-bottom: 1em;
+     
+     width: 100%;
+     height: auto;
+
+     display: flex;
+     justify-content: center;
+}
+.img__container{
+     width: 80%;
+}
+img{
+     width: 100%;
+}
+.progress-container {
+     width: 20%;
+     height: 100vh;
+
+     display: flex;
+     justify-content: center;
+}
+.progress-container__scroller{
+     width: 10px;
+     height: 60%;
+
+     background-color: rgba(235, 104, 44, 0.5);
+}
+.progress-bar{
+     width: 100%;
+
+     background-color: #eb6a2c;
+}
